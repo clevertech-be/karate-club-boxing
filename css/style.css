@@ -85,10 +85,6 @@ body {
   height: auto;
 }
 
-.sub_page .class_section .owl-carousel .owl-nav {
-  top: 55%;
-}
-
 .header_section {
   background-color: #ffffff;
   position: relative;
@@ -163,6 +159,7 @@ a:focus {
 .main_nav {
   position: relative;
   z-index: 9;
+  margin-top: 50px;
 }
 
 .main_nav .top_nav ul {
@@ -288,6 +285,9 @@ a:focus {
   top: -25px;
 }
 
+.hidden {
+  display: none;
+}
 .slider_section .slider_heading h2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -305,6 +305,13 @@ a:focus {
 
 .slider_section .detail-box h1 {
   font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.slider_section .detail-box p {
+  font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
   color: #ffffff;
@@ -630,7 +637,6 @@ a:focus {
   padding: 0 10px;
   margin-top: 55px;
   position: absolute;
-  top: 50%;
   right: 45px;
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
@@ -757,6 +763,7 @@ a:focus {
 
 .client_section {
   color: #ffffff;
+  margin-top: 10px;
 }
 
 .client_section .heading_container {
@@ -765,6 +772,7 @@ a:focus {
   align-items: center;
   text-align: center;
   margin-bottom: 45px;
+  margin-top: 45px;
 }
 
 .client_section .box {
@@ -945,6 +953,11 @@ a:focus {
 /* footer section*/
 .footer_section {
   margin: 25px 0;
+}
+
+.footer_contact p,
+span {
+  color: #ffffff;
 }
 
 .footer_section .social_box {
